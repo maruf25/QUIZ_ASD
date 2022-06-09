@@ -45,9 +45,9 @@ def cetakLuarKiri(data):
         cetakLuarKiri(data.kiri)
         print(data.data)
 def cetakLuarKanan(data):
-    if data.kanan is not None:
-        cetakLuarKanan(data.kanan)
+    if data is not None:
         print(data.data)
+        cetakLuarKanan(data.kanan)
         
 
 def cetakLuar(data):
